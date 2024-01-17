@@ -1,0 +1,45 @@
+Create a Virtual Machine(VM)
+---------------------------
+1.login into portal.azure.com
+2.create a new resource.Select virtual Machine
+3.Select the resource group from the drop down(your subscribed id)
+4.create a new virtual machine name.
+5.Give the region as Australia Central.
+6.Give the sufficient resources (CPU,RAM,Storage) for VM.Size (Basic)
+7.Create a username and password for administrator account.
+8.Next go to disk select the os disk type to std hdd.
+9.create and deploy.
+10.Go to overview (dashboard-> n/w) download the RDP file. connect it by using username and password. 
+
+
+
+
+SetUp Sql Server Database
+-----------------------------
+1.login into portal.azure.com
+2.create a new resource.Select SQL Database.
+3.Select the resouce group from the drop down(your subsribed id)
+4.Give a database name.Server as Australia Central.
+5.Select Compute+storage(configure database). Service tier to basic
+6.Select Backup Storage redundancy to local.Review and create.
+7.Deploy the resource.
+8. In the created database change the firewall settings to selected network and add ipv4 address,allow azure services. 
+9.Create the table in Query Editor.
+
+
+
+
+
+
+
+
+
+
+Create a Virtual Network(VN)
+------------------------------
+1.login into portal.azure.com
+2.create a new resource.Select virtual Network.
+3.Select the resouce group from the drop down(your subsribed id)
+4.create a new virtual network name.
+5.Give the region as Australia Central.
+6.create and deploy. 
